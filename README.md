@@ -93,6 +93,7 @@ ggplot(data.frame(pval))+
   geom_histogram(aes(pval), color="#d28e00")+
   labs(x="p-value", title="p-value distribution")
 ```
+![image](https://user-images.githubusercontent.com/64433172/80417329-8fb0d900-88a3-11ea-9f8f-c0c08163bfe0.png)
 
 **A monte carlo power analysis for related measures indicates that the n=4 used in the above experiment will give us 99-100% power. This level of ANOVA power should be enough to detect an effect of time on peak Ca signal in astrocytes.**
 
