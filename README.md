@@ -63,6 +63,7 @@ ggplot(data, aes(as.factor(day), amplitude, color=cell_line, group=cell_line))+
   ggtitle("Peak Ca Amplitude in Astrocytes Over Time") +
   theme(plot.title = element_text(size=10, hjust = 0.5))
 ```
+![image](https://user-images.githubusercontent.com/64433172/80417057-24ff9d80-88a3-11ea-8020-7b08b5e67c4a.png)
 
 ### Monte Carlo analysis
 
